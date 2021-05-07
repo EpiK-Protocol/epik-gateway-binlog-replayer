@@ -9,7 +9,7 @@ scalaVersion := "2.12.8"
 val sparkVersion  = "3.0.1"
 val hadoopVersion = "3.2.1"
 
-name := "epik-logreplayer-job"
+name := "epik-gateway-binlog-replayer"
 version := "1.0.0-SNAPSHOT"
 
 test in assembly in ThisBuild := {}
@@ -58,7 +58,7 @@ assemblyShadeRules in assembly := Seq(
     .inAll
 )
 
-assemblyJarName in assembly := "epik-logreplayer-job.jar"
+assemblyJarName in assembly := "epik-gateway-binlog-replayer.jar"
 
 test in assembly := {}
 // should not include scala runtime when submitting spark job
