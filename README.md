@@ -1,6 +1,6 @@
 # Epik knowledge graph binlog replayer
 
-Spark job that replay binlog of cn_dbpedia to Nebula Graph database.
+Spark job that replay [bin-log](https://github.com/EpiK-Protocol/epik-gateway-binlog-encoder/blob/master/binlog.md) of cn_dbpedia to Nebula Graph database.
 
 ## Prerequisites  
 Same as [epik-gateway-binlog-encoder](https://github.com/EpiK-Protocol/epik-gateway-binlog-encoder)
